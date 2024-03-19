@@ -24,7 +24,8 @@ export default function Signup() {
           username:username,
           phone:phone
         }).then(()=>{
-          history.push("/login")
+          console.log("Redirecting to login page");
+          history.push('/login');
         })
       })
 
